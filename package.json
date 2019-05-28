@@ -1,0 +1,23 @@
+{
+  "name": "specjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha */**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itacirgabral/mocha.git"
+  },
+  "author": "itacirgabral",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itacirgabral/mocha/issues"
+  },
+  "homepage": "https://github.com/itacirgabral/mocha#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
