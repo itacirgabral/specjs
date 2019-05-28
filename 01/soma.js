@@ -1,3 +1,5 @@
-const soma = () => Error("ainda sem implementacao")
+const soma = () => {
+  throw new Error("Ainda sem implementacao")
+}
 
 module.exports = soma
