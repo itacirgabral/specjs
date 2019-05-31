@@ -11,10 +11,11 @@
 - errar rapido
 - expressao, tipos primitivos, tipos de erro
   1. soma, multiplicacao
-  2. subtracao
+  2. funcao ouvaiouracha
+  3. subtracao
 - objetos, vetores, notacao
   1. keys, values, entries
-- funcao, destruicao, valor padrao, resto
+- mais funcao, destruicao, valor padrao, resto
 
 ## desafio
 ```json
