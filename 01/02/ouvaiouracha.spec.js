@@ -32,23 +32,28 @@ describe("# Ou vai Ou Racha", () => {
     const resultado = ouvaiouracha(v)
     assert.equal(gabarito, resultado)
   })
+  it("tring -> numero", () => {
+    const v = "cinco"
+    const gabarito = new Error("soma com string")
+    assert.throws(() => ouvaiouracha(v), gabarito)
+  })
   it("infinito -> erro", () => {
     const v = Infinity
-    const gabarito = new RangeError("soma com infinito")
+    const gabarito = new Error("soma com infinito")
     assert.throws(() => ouvaiouracha(v), gabarito)
   })
   it("null -> erro", () => {
     const v = null
-    const gabarito = new RangeError("soma com null")
+    const gabarito = new Error("soma com null")
     assert.throws(() => ouvaiouracha(v), gabarito)
   })
   it("undefined -> erro", () => {
-    const gabarito = new RangeError("soma com undefined")
+    const gabarito = new Error("soma com undefined")
     assert.throws(() => ouvaiouracha(v), gabarito)
   })
   it("NaN -> erro", () => {
     const v = NaN
-    const gabarito = new RangeError("soma com NaN")
+    const gabarito = new Error("soma com NaN")
     assert.throws(() => ouvaiouracha(v), gabarito)
   })
 })
