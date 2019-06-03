@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itacirgabral/mocha.git"
+    "url": "git+https://github.com/itacirgabral/specjs.git"
   },
   "author": "itacirgabral",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/itacirgabral/mocha/issues"
+    "url": "https://github.com/itacirgabral/specjs/issues"
   },
-  "homepage": "https://github.com/itacirgabral/mocha#readme",
+  "homepage": "https://github.com/itacirgabral/specjs#readme",
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^6.1.4"

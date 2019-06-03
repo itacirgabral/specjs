@@ -6,8 +6,8 @@ Prerequisitos:
 
 Baixar o repositorio e instalar as dependencias:
 ```bash
-git clone https://github.com/itacirgabral/mocha
-cd mocha
+git clone https://github.com/itacirgabral/specjs
+cd specjs
 npm install
 code .
 ```
