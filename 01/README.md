@@ -17,24 +17,10 @@
   1. keys, values, entries
 - mais funcao, destruicao, valor padrao, resto
 
-## desafio
-```json
-{
-  "soma": [
-    42,
-    {
-      "sub": [33, 10]
-    },
-    {
-      "mult": [
-        {
-          "soma": [2, 6, 60]
-        },
-        {
-          "sub": [5, 20, -60]
-        }
-      ]
-    },
-  ]
-}
-```
+## desafio dicas
+
+- `"0123".split("")`
+- `["0", "1", "2", "3"].join("")`
+- `["0", "1", "2", "3"].reverse("")`
+- `"0123".padEnd(7, 0)`
+- `Array(4).fill()`
