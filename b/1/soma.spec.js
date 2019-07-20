@@ -24,8 +24,8 @@ describe("# SOMA", () => {
     it("efetua a soma infinito", () => {
       const v1 = 3
       const v2  = Infinity
-      const gabarito = new Error("soma com infinito")
-      assert.throws(() => soma(v1, v2), gabarito, "a funcao deve explodir")
+      const gabarito = new Error('soma com infinito')
+      assert.throws(() => soma(v1, v2), gabarito, 'a soma deve dar erro')
     })
   })
 })
