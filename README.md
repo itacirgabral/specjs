@@ -12,15 +12,10 @@ npm install
 code .
 ```
 
-## Bloco 1
-- browser, npm, script hospedeiro
-- numeros e funcoes
-- objetos e vetores
+## INTRODUÇÃO E SETUP
 
-## Bloco 2 - ToDo CRUD
+## TESTES UNITÁRIOS BÁSICO
 
-## Bloco 3 -
+## DESIGN ORIENTADO A TESTES
 
-## Bloco 4 - 
-- Criar testes sobre o modulo de "rifas"
-- substituir Set por objeto
+## COMPOSIÇÃO E INJEÇÃO DE DEPENDÊNCIAS
