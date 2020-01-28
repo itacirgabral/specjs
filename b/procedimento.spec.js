@@ -1,41 +1,41 @@
 const assert = require('assert');
 const capitalDe = require('./procedimento');
 
-describe("# ESTADOS E SUAS RESPECTIVAS CAPITAIS", () => {
-  describe('## Estados do nordeste', () => {
-    it("Maranhão", () => {
+describe("# ESTADOS E SUAS RESPECTIVAS CAPITAIS", function () {
+  describe('## Estados do nordeste', function () {
+    it("Maranhão", function () {
       const capital = capitalDe("Maranhão")
       assert(capital === "São Luís", "A capital não é esta")
     })
-    it("Piauí", () => {
+    it("Piauí", function () {
       const capital = capitalDe("Piauí")
       assert(capital === "Teresina", "A capital não é esta")
     })
-    it("Ceará", () => {
+    it("Ceará", function () {
       const capital = capitalDe("Ceará")
       assert(capital === "Fortaleza", "A capital não é esta")
     })
-    it("Rio Grande do Norte", () => {
+    it("Rio Grande do Norte", function () {
       const capital = capitalDe("Rio Grande do Norte")
       assert(capital === "Natal", "A capital não é esta")
     })
-    it("Paraíba", () => {
+    it("Paraíba", function () {
       const capital = capitalDe("Paraíba")
       assert(capital === "João Pessoa", "A capital não é esta")
     })
-    it("Pernambuco", () => {
+    it("Pernambuco", function () {
       const capital = capitalDe("Pernambuco")
       assert(capital === "Recife", "A capital não é esta")
     })
-    it("Alagoas", () => {
+    it("Alagoas", function () {
       const capital = capitalDe("Alagoas")
       assert(capital === "Maceió", "A capital não é esta")
     })
-    it("Sergipe", () => {
+    it("Sergipe", function () {
       const capital = capitalDe("Sergipe")
       assert(capital === "Aracaju", "A capital não é esta")
     })
-    it("Bahia", () => {
+    it("Bahia", function () {
       const capital = capitalDe("Bahia")
       assert(capital === "Salvador", "A capital não é esta")
     })
