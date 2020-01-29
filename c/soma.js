@@ -1,3 +1,3 @@
-module.exports = function (a, b) {
+module.exports = function soma (a, b) {
   return a + b
 }
