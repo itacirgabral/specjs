@@ -16,6 +16,8 @@ describe('# ESCOPO', () => {
 
   it('## LAZYBOX', () => {
     let x0 = 0
+    //const b = Box(x0).then(x => x + 2).then(x => x * 3)
+
     const b = LazyBox(() => x0 + 2).then(x => x * 3)
 
     x0 = 2
